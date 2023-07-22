@@ -1,0 +1,70 @@
+.history-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.time-accessed {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.website-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.logo-container {
+  display: flex;
+}
+.logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+  margin-left: 0px;
+}
+.domain-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  padding: 10px;
+}
+.domain-title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.delete {
+  height: 30px;
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  .domain-title: 18px;
+  margin-top: 10px;
+}
